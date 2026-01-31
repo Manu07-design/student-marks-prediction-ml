@@ -4,7 +4,6 @@ An end-to-end Machine Learning project that predicts student marks based on
 study hours, attendance, and sleep hours. The trained model is saved and reused
 for future predictions.
 
----
 
 # Features
 - Trains a Linear Regression model
@@ -13,7 +12,6 @@ for future predictions.
 - Saves trained model using Joblib
 - Loads model for reuse (no retraining needed)
 
----
 
 # Tech Stack
 - Python
@@ -22,7 +20,6 @@ for future predictions.
 - NumPy
 - Joblib
 
----
 
 # Project Structure
 student-marks-prediction-ml/
@@ -32,15 +29,14 @@ student-marks-prediction-ml/
 │── README.md
 
 
----
-
 # Model Evaluation
 - Metric used: **RMSE (Root Mean Squared Error)**
 - Lower RMSE indicates better model performance
 
----
+# Sample Output
 
-# How to Run
-```bash
-pip install pandas scikit-learn numpy joblib
-python student_ml.py
+RMSE: 0.0  
+Predicted marks: ~71.6
+
+![Project Output](output.png)
+

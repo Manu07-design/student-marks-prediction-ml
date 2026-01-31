@@ -34,5 +34,9 @@ print("RMSE:", rmse)
 joblib.dump(model, "student_marks_model.pkl")
 
 # Test prediction
-sample = [[7, 85, 7]]
+sample = pd.DataFrame(
+    [[7, 85, 7]],
+    columns=['study_hours', 'attendance', 'sleep_hours']
+)
+
 print("Predicted marks:", model.predict(sample))
